@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Student Information System</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Home.css" type="text/css">
+	</head>
+		<body ng-app="" ng-init="Teams=[{Name:'Payush Mishra',Branch:'Computer Science', images:'Images/DSC_0000075.jpg'},
+                                        {Name:'Pankaj Joshi',Branch:'Computer Science', images:'Images/cds_pic.jpg'},
+                                        {Name:'Vineta Suyal',Branch:'Information Technology', images:'Images/photo.jpg'},
+                                        {Name:'Lalita Dangwal',Branch:'Computer Science', images:'Images/lalita.jpg'},
+                                        {Name:'Shashank Singh',Branch:'Computer Science', images:'Images/IMG-20171214-WA0010.jpg'}]" style="overflow-x:hidden">
+           <nav class="navbar navbar-default navbar-fixed-top">
+  				<div class="container-fluid">
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        				 	<span class="icon-bar"></span>                        
+      				    </button>
+      					<a class="navbar-brand" href="">
+                           <img src="Images/images.jpg" class="img-responsive img-circle" style="height:85px; width:90px; margin-top:-10px;"/>
+                        </a>
+    				</div>
+    			<div class="collapse navbar-collapse" id="myNavbar">
+      			  <ul class="nav navbar-nav navbar-right">
+        			<li><a href="#home">Home</a></li>
+        	                <li class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="https://www.w3schools.com/bootstrap/trybs_theme_band_navbar_iframe.htm#">Login
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="teach_login.html">Faculty</a></li>
+            <li><a href="stu_login.html">Student</a></li>
+           
+          </ul>
+        </li>	
+                        <li class="dropdown">
+          				<a class="dropdown-toggle" data-toggle="dropdown" href=    
+                        "https://www.w3schools.com/bootstrap/trybs_theme_band_navbar_iframe.htm#">Registration
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                         
+                         <li><a href="admin_login.html">Faculty</a></li>
+                        </ul>
+                        </li>
+                        </li>
+        				<li><a href="#contact">Contact us</a></li>
+                        <li><a href="#about">About us</a></li>
+                        </ul>
+             </div>
+           </div>
+        </nav>
+        
+            <div class="container">
+               <div class="row" id="home">  
+                   <div class="col-lg-12">
+                      <div id="#mycarousel" class="carousel slide" data-interval="3000" data-ride="carousel"                   
+                      data-pause="false" style="width:99%; margin-top:100px;">
+                         <ol class="carousel-indicators">
+                            <li id="#mycarousel" data-slide-to="0" class="active">
+                            <li id="#mycarousel" data-slide-to="1" class="active">
+                            <li id="#mycarousel" data-slide-to="2" class="active">
+                            <li id="#mycarousel" data-slide-to="3" class="active">
+                         </ol> 
+                        <div class="carousel-inner" style="width:150%; margin-top:110px;">
+                           <div class="item active">
+                              <img src="Images/DSC_0504.JPG" class="img-responsive" style=" height:600px; width:1125px; background-attachment:fixed;"/>
+                           </div>
+                             <div class="item">
+                              <img src="Images/DSC_0180.JPG" class="img-responsive" style=" height:600px; width:1125px; background-attachment:fixed; "/>
+                           </div>
+                             <div class="item">
+                              <img src="Images/DSC_0181.JPG" class="img-responsive" style=" height:600px; width:1125px; background-attachment:fixed;"/>
+                           </div>
+                             <div class="item">
+                              <img src="Images/DSC_0198.JPG" class="img-responsive" style=" height:600px; width:1125px; background-attachment:fixed;"/>
+                           </div>
+                        </div>
+                        <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                           <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                           <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                      </div>
+                     
+                    </div>
+               </div>
+            </div>
+           <div class="about1" id="contact">
+            <h2>Contact us</h2>
+           </div>
+             
+             <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="cust">
+                     <form class="form-inline">
+                     <div class="form-group text-center">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="e.g.Neeraj Kumar" style="margin-left:30px;"/>
+                     </div>
+                     
+                     <div class="form-group">
+                        <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" class="form-control" placeholder="e.g.Neeraj@gmail.com" />
+                     </div>
+                       </form>
+                       <form class="form-inline">
+                       <div class="form-group">
+                        <label>Phone No.</label>
+                        <input type="number" class="form-control" placeholder="e.g.901426789"/>
+                        </div>
+                     
+                      <div class="form-group">
+                        <label>Comments</label>
+                        <input type="text" class="form-control" placeholder="e.g.Hello! How are you?"/>
+                     </div>
+                      <br/><br/>
+                     <button class="btn bg-primary" type="submit" style="margin-left:70px;">Submit</button>
+                          <a href="#home"><img src="Images/top_mover.png" style="float:right"/></a>
+                    </form>
+               
+                     </div>
+                  </div>
+               </div>
+             </div>
+           <div class="about1" id="about">
+            <h2>About us</h2>
+           </div>
+             <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <img src="Images/bann3.jpg" style="height:500px;"/> 
+                  </div>
+         
+                  <div class="col-lg-6">
+                     <p class="about">This Student Information System is designed and created by the students of Amrapali Institute Of Technology and Sciences, CSE 4<sup>th</sup>year students. The Student Information System provide the information of the students including their personal information, academic information and their marks.</p>
+                  </div>
+                </div>
+             </div>
+             <div class="container-fluid">
+             	<div class="row">
+                  <div class="col-lg-3" ng-repeat="Team in Teams" style="background-color:#CF0; width: 20%;">
+                        <img src="{{Team.images}}" class="img-responsive img-circle" style="height:200px; margin-left:40px; width: 100px;">
+                        <p style="margin-left:50px; color:#C03; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">{{Team.Name}}</p>
+                        <hr style="background-color:#630; margin-left:50px;"/>
+                        <p style="margin-left:50px; color:#C03; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">{{Team.Branch}}</p>
+                        <hr style="background-color:#630; margin-left:50px;"/>
+                        <a href="#home"><img src="Images/top_mover.png" style="float:right"/></a>
+                  </div>
+                </div>
+             </div>
+             
+         <footer>
+           <div class="container-fluid">
+             <div class="row">
+              <div class="col-lg-12">
+                <div class="footer">
+                  Copyrights © 2017 AITS . All rights reserved | Design by CSE
+                  <a href="#home"><img src="Images/top_mover.png" style="float:right"/></a>
+                </div>
+              </div>
+            </div>
+           </div>
+         </footer>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      		 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"> </script>
+        	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+             <!-- Include all compiled plugins (below), or include individual files as needed 
+             <script src="html/js/bootstrap.min.js"></script>-->
+		</body>
+</html>

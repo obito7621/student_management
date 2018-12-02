@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.head{
+	background-color:#F90;
+	color:#600;
+	font-style:normal;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	height:50px;
+	padding-top:15px;
+	margin-left:40px;
+	padding-left:50px;
+}
+
+.semhead{
+	color:#600;
+	font-size:25px;
+	padding-left:450px;
+	height:35px;
+	background-color:#03F;
+	
+}
+.semester{
+	background-color:#999;
+	text-align:center;
+	height:25px;
+}
+.caovp{
+	background-color:#FC0;
+	padding-left:100px;
+	color:#630;
+}
+.footer{
+	background-color:#903;
+	color:#339;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	margin-top:10px;
+	height:30px;
+	text-align:center;
+	overflow-style:auto;
+	left:0px;
+	right:0px;
+}
+

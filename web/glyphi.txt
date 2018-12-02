@@ -1,0 +1,8 @@
+<span class="glyphicons glyphicons-keys"></span>
+<span class="glyphicons glyphicons-leaf"></span>
+<span class="glyphicons glyphicons-keys"></span>
+<span class="glyphicons glyphicons-bookmark"></span>
+<span class="glyphicons glyphicons-font"></span>
+<span class="glyphicons glyphicons-user"></span>
+<span class="glyphicons glyphicons-user-add"></span>
+<span class="glyphicons glyphicons-paperclip"></span>
